@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Public Alert </title>
+    <link rel=icon href="assets/images/icon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+
+        .blog a {
+            text-decoration: none;
+            text-align: left;
+            color: #fff;
+        }
+        /* Initially hide the submenu */
+        .submenu {
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+
+            .submenu a {
+                color: black;
+            }
+        /* Display the submenu when the parent is hovered */
+        .parent:hover .submenu {
+            display: block;
+            position: absolute;
+            background-color: #ffff;
+            padding-right: 2%;
+        }
+        .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+}
+.SecondCheck {
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+}
+.FirstCheck {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+        /* Initially hide the submenu */
+    
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f7f7;
+      
+        }
+
+        .thank-you-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+        .thank-you-container h1 {
+            color: #3498db;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+       .thank-you-container p {
+            color: #555;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+      .thank-you-container  a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+       .thank-you-container a:hover {
+            background-color: #2980b9;
+        }
+        @media (max-width: 768px) {
+            #mobileMenu:hover .submenu {
+                display: block;
+            }
+            .thank-you-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+        }
+    </style>
+</head>
+
+<body>
+
+ 
+
+ 
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- navbar start -->
+    <div class="navbar-area">
+        <!-- navbar top start -->
+  
+        <nav class="navbar navbar-area-2 navbar-area navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="img"></a>
+                </div>
+         
+                <div class="collapse navbar-collapse" id="edumint_main_menu">
+                    <ul class="navbar-nav menu-open">
+                      
+                                <li><a href="index.html">Home</a></li>
+                        
+                        <li class="menu-item-has-children">
+                            <a href="#">Active Lawsuites</a>
+                            <ul class="sub-menu">
+                             
+                                    <li ><a href="sign-up-camp-lejeune.html">Camp Lejeune</a></li>
+                                    <li><a href="sign-up-talcum-powder.html">Talcum Powder
+                                    </a></li>
+                                    <li> <a href="sign-up-lyft-and-uber-sexual-assault-lawsuits.html">Lyft and Uber Sexual Assault Lawsuits</a></li>
+                                    <li> <a href="sign-up-motor-vehicle-accident.html">Motor Vehicle Accident</a></li>
+                                    <li><a href="sign-up-hair-straightener-relaxer.html">Hair Straightener/Relaxer</a></li>
+                                    <!-- Add more submenu items as needed -->
+                             
+                            </ul>
+                        </li>
+                        <li><a href="current-case.html">Current Cases</a></li>
+                      
+                        <li class="menu-item-has-children">
+                            <a href="#">Terms and Conditions</a>
+                            <ul class="sub-menu">
+                                <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="mobile-terms.html">Mobile Policy</a></li>
+                              
+                            </ul>
+                        </li>
+                      
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li> <a class="btn btn-base" href="signup.php">FREE CASE REVIEW >> </a></li>
+                  
+                    </ul>
+                    
+
+                </div>
+              
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- breadcrumb start -->
+    <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/images/hero-bg-4.jpg')">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <div class="section-title mb-0 text-center">
+                    <h2 class="page-title">Sign Up Today
+
+                    </h2>
+                    <ul class="page-list">
+                 
+                        <li>If you think you have been wrongfully injured or abused please fill out the form below to be contacted immediately.
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+  <!-- counter area start -->
+  <div class="counter-area pd-top-80 pd-bottom-120">
+    <div class="container">
+        <div class="row justify-content-center">
+        
+        
+            <div class="thank-you-container">
+                <h1>Thank You!</h1>
+                <p>Thank you for entering your information concerning a free case review. We will be in touch with you within 24 hours.
+                    </p>
+                <a href="index.html">Back to Home</a>
+            </div>
+        </div>
+
+    </div>
+           
+       
+</div>
+
+<!--pricing-area end-->
+
+
+<!-- footer area start -->
+<footer class="footer-area footer-area-2 ">
+<div class="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+               <img src="assets/images/logo.png">
+            </div>
+         
+            <div class="col-lg-3 col-md-12">
+                <div class="widget widget_blog_list">
+                    <h4 class="widget-title">Our Mission
+                    </h4>
+                 <p>At Public Alerts, our mission is to passionately advocate for justice and fairness on behalf of individuals who have suffered harm due to the negligence or intentional actions of others. We are dedicated to providing expert legal representation, tirelessly pursuing favorable outcomes for our clients. Our commitment to integrity, empathy, and excellence sets us apart as we navigate the complexities of tort law to secure just compensation and promote accountability.
+
+                 </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="widget widget_nav_menu">
+                    <h4 class="widget-title">Blog Categories
+                    </h4>
+            <p>The Reasons Behind Camp Lejeune Lawsuits
+
+                Ozempic adverse long term side effects
+                
+                Seeking Compensation for Patients' Rights
+                
+                How To Know If You Were Harmed By Round-Up
+                
+                Common Causes of Lung Cancer</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="widget widget_contact">
+                    <h4 class="widget-title">Contact Us</h4>
+                    <ul class="details">
+                        <li><i class="fa fa-map-marker"></i> 1887 WHITNEY MESA DR #8129 HENDERSON, NV 89014</li>
+                        <li><i class="fa fa-envelope"></i> info@public-alerts.com</li>
+                        <li><i class="fa fa-phone"></i> (877)651-5761</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom  bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 align-self-center">
+                <p>Copyright © 2024 Public Alert </p>
+            </div>
+            <div class="col-md-7 text-md-right align-self-center mt-md-0 mt-2">
+                <div class="widget_nav_menu">
+                    <ul>
+                        <li><a href="terms-and-conditions.html">Terms Of Service</a></li>
+                        <li><a href="privacy-policy.html"> Privacy Policy</a></li>
+                        <li><a href="mobile-terms.html">Mobile Terms</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- footer area end -->
+
+<!-- back to top area start -->
+<div class="back-to-top">
+<span class="back-top"><i class="fa fa-angle-up"></i></span>
+</div>
+<!-- back to top area end -->
+
+
+<!-- all plugins here -->
+<script src="assets/js/vendor.js"></script>
+<!-- main js  -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
